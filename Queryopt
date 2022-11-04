@@ -1,3 +1,4 @@
+-- Active: 1667451200378@@127.0.0.1@3306@sql_inventory
 USE sql_inventory;
 
 SELECT *
@@ -24,7 +25,7 @@ FROM products
 -- WHERE name LIKE "P%r" -- Starting with P or p and ending with r
 
 
-WHERE name REGEXP '^[P]' -- Starting with capital alphabets
+-- WHERE name REGEXP '^[P]' -- Starting with capital alphabets
 -- WHERE name REGEXP '^[p]' -- Starting with small alphabets
 -- WHERE name REGEXP '^[A-Za-z]' -- Starting with any alphabets
 -- WHERE name REGEXP '^[A-Za-z0-9]' -- Starting with any alphabets or numbers
@@ -41,3 +42,8 @@ WHERE name REGEXP '^[P]' -- Starting with capital alphabets
 -- WHERE name REGEXP 'i[^a-z]' -- Searching for i followed by any character except the characters in the bracket
 -- ^ begining and $ for ending, | for logical or, [] for any character, [^] for any character except the characters in the bracket, [a-z] for any character in the range a-z, [^a-z] for any character except the characters in the range a-z
 
+
+
+-- WHERE name IS NULL -- Checking for null values
+-- WHERE name IS NOT NULL -- Checking for not null values
+-- Where name IS NULL OR name = '' -- Checking for null or empty values
