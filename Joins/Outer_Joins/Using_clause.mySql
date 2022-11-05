@@ -1,0 +1,16 @@
+-- Active: 1667451200378@@127.0.0.1@3306@sql_store
+USE sql_store;
+
+SELECT o.order_id, c.first_name, sh.name -- Creating custom tables
+FROM orders o
+
+JOIN customers c 
+        USING (customer_id)
+LEFT JOIN shippers sh
+        USING (shipper_id) -- Replacing ON method with USING method in MySQL
+
+
+-- SELECT *
+-- FROM order_items oi
+-- JOIN order_item_notes oin
+--         USING (order_id, product_id) --Shorthand of ~ ON oi.order_id = oin.order_id AND oi.product_id = oin.product_id
