@@ -1,6 +1,7 @@
 # Database ~ A collection of data stored in a format that can be easily accessed.
 Inorder, to manage our databases we use software apk namely Database management system (DBMS). We connect to DBMS and give it instructions querying or modifying data. DBMS will execute our instructions and send results back.
 
+
 # 02 types of database management systems, namely.
 1> Relational Database
 --- In relational database we store data in tables that are linked to each other using relationships. Each table store data about a specific type of object (Teacher - Stuednt - Parent). 
