@@ -1,4 +1,4 @@
-# <div align=center><a href="https://www.w3schools.com/sql/sql_ref_sqlserver.asp">❕<img src="https://img.shields.io/badge/Erudite SQL-functions-f39f37" />❕</a></div>
+# <div align=center>🍕<a href="https://www.w3schools.com/sql/sql_ref_sqlserver.asp">❕<img width=269px height=28px src="https://img.shields.io/badge/Erudite SQL-functions-f39f37" />❕</a>🍺</div>
 
 ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- 
 
